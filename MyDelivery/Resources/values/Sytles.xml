@@ -1,0 +1,118 @@
+﻿<resources>
+  <style name="Theme.Splash2" parent="BaseTheme2">
+   
+    <item name="android:windowBackground">@drawable/splash</item>
+
+  </style>
+
+  <!--v2-->
+  <style name="AppCompatAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <!-- Used for the buttons -->
+    <item name="colorAccent">@drawable/color_selector_primary_accent</item>
+    <!-- Used for the title and text -->
+    <item name="android:textColorPrimary">@color/black</item>
+    <!-- Used for the background -->
+    <item name="android:background">@color/transport</item>
+  </style>
+
+  <!--v2-->
+  <style name="OrdersTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primary_dark</item>
+    <item name="colorAccent">@color/accent</item>
+    <item name="alertDialogTheme">@style/AppCompatAlertDialogStyle</item>
+  </style>
+
+
+
+  <style name="actionbar_title_style" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:paddingLeft">6dp</item>
+    <item name="android:textColor">@color/white</item>
+    <!--item name="android:textSize">22sp</item-->
+  </style>
+
+  <style name="actionbar_tab_style" parent="android:Widget.Holo.Light.ActionBar.TabView">
+  </style>
+
+  <style name="Dialog.NoTitle" parent="Theme.AppCompat.Dialog">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:padding">0dp</item>
+    <item name="android:radius">15dip</item>
+    <!--<item name="android:windowFullscreen">true</item>-->
+    <!--<item name="android:windowIsFloating">false</item>-->
+    <item name="android:windowBackground">@+android:color/transparent</item>
+  </style>
+
+  <style name="Dialog.FullScreen" parent="Theme.AppCompat.Dialog">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:windowBackground">@+android:color/transparent</item>
+  </style>
+
+  <style name="menu_item_title_style_bold">
+    <item name="android:textStyle">bold</item>
+  </style>
+
+  <style name="menu_item_title_style_normal">
+    <item name="android:textStyle">normal</item>
+  </style>
+
+  <style name="onlyProgressIconDialog" parent="@android:style/Theme.Dialog">
+    <item name="android:windowFrame">@null</item>
+    <item name="android:windowBackground">@+android:color/transparent</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowTitleStyle">@null</item>
+    <item name="android:windowAnimationStyle">@+android:style/Animation.Dialog</item>
+    <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    <item name="android:backgroundDimEnabled">false</item>
+    <item name="android:background">@+android:color/transparent</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+
+  <style name="Theme.AppCompat.Translucent" parent="Theme.AppCompat.NoActionBar">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation</item>
+  </style>
+
+
+  <style name="BaseTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primary_dark</item>
+    <item name="colorAccent">@color/accent</item>
+  </style>
+
+  <style name="AppTheme2" parent="BaseTheme2">
+  </style>
+
+  <style name="Dialog" parent="Theme.AppCompat.Light.Dialog">
+    <item name="android:windowBackground">@null</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+  </style>
+
+ 
+  <style name="Widget.MyApp.HeaderBar.Spinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+    <item name="android:background">@null</item>
+    <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+    <item name="android:divider">@null</item>
+    <item name="android:overlapAnchor">true</item>
+    <item name="android:layout_marginTop">30dp</item>
+    <item name="android:layout_marginBottom">30dp</item>
+  </style>
+
+  <style name="Theme.Transparent" parent="android:Theme">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:colorBackgroundCacheHint">@null</item>
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:backgroundDimEnabled">true</item>
+    <!--<item name="android:windowFullscreen">true</item>-->
+  </style>
+
+</resources>
